@@ -233,7 +233,7 @@ def inject_hex_copy_actions(form, popup, form_type):
     # disassembly window
     #
 
-    if form_type == idaapi.BWN_DISASMS:
+    if form_type == 27: # https://python.docs.hex-rays.com/ida_kernwin#bwn_disasm
         # insert the prefix action entry into the menu
         #
 
